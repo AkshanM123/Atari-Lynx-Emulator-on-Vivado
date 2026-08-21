@@ -446,9 +446,9 @@ MiSTer CPU-related files used during development but not included here:
 - rtl/cpu.vhd
 - rtl/bus_savestates.vhd
 - rtl/reg_savestates.vhd
-- rtl/pexport.vhd, using only the pexport package/type definitions
+- rtl/export.vhd, using only the pexport package/type definitions
 
-The simulation-only export entity from rtl/pexport.vhd was not used for the FPGA hardware build.
+The simulation-only export entity from rtl/export.vhd was not used for the FPGA hardware build.
 
 Users must provide their own legally obtained BIOS and cartridge images to rebuild or test the full system.
 
